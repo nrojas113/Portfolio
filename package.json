@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-react",
+  "version": "1.0.0",
+  "description": "Personal porfolio that includes my experience and past projects",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "start-dev": "webpack -w & webpack serve",
+    "build": "webpack --mode production",
+    "build-dev": "webpack"
+  },
+  "author": "Natalie Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
