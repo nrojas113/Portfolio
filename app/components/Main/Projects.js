@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div>
+    <section id="projects">
       <h1>Projects</h1>
       <ul>
         <li>Project 1</li>
@@ -10,6 +10,6 @@ export default function Projects() {
         <li>Project 3</li>
         <li>Project 4</li>
       </ul>
-    </div>
+    </section>
   );
 }

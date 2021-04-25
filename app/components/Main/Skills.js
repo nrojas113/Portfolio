@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div>
+    <section id="skills">
       <h1>Tech Skills</h1>
       <ul>
         <li>Skill 1</li>
@@ -10,6 +10,6 @@ export default function Skills() {
         <li>Skill 3</li>
         <li>Skill 4</li>
       </ul>
-    </div>
+    </section>
   );
 }

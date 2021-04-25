@@ -1,0 +1,25 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* VARIABLES */
+$mainTextColor: #e92b6d;
+$body-font: "Montserrat", sans-serif;
+
+/* BASE STYLING */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $body-font;
+}
+
+section {
+  @include flexCenter();
+}
+
+@import "./cover";
+@import "./about";
