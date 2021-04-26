@@ -2,6 +2,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./app/media/background.png":
+/*!**********************************!*\
+  !*** ./app/media/background.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "12fc1a7a26724fd592f6.png";
+
+/***/ }),
+
+/***/ "./app/media/girl.jpg":
+/*!****************************!*\
+  !*** ./app/media/girl.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0144fb67bf25a2567c45.jpg";
+
+/***/ }),
+
 /***/ "./app/components/Footer.js":
 /*!**********************************!*\
   !*** ./app/components/Footer.js ***!
@@ -15,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Email | LinkedIn | Github | Medium"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "@2021 Natalie Rojas. All Rights Reserved"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Email | LinkedIn | Github | Medium"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "@ 2021 Natalie Rojas | All Rights Reserved"));
 }
 
 /***/ }),
@@ -31,11 +51,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ About)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _media_girl_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../media/girl.jpg */ "./app/media/girl.jpg");
+
 
 function About() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
     id: "about"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hi. I'm a fullstack developer."));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _media_girl_jpg__WEBPACK_IMPORTED_MODULE_1__,
+    alt: "red hair girl drawing"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hi. I'm Natalie Rojas, a fullstack software engineer based in Jersey City. I'm a fullstack developer and UI/UX enthusiast. My interest in technology came from when", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "I love learning about different roots and cultural harmony. Originally born and spent my childhood in Fukuoka, Japan, where my mother's family lives. I learned about American culture and English language in Portland, Oregon. And I explored my Dominican roots when moved to New York after graduating from college. Having multicultural background allow")));
 }
 
 /***/ }),
@@ -53,7 +78,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 function Cover() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Natalie Rojas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Software Engineer"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "NATALIE O. ROJAS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SOFTWARE ENGINEER"));
 }
 
 /***/ }),
@@ -131,7 +156,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 function Nav() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Nav bar here"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#"
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#about"
+  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#projects"
+  }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#experience"
+  }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#"
+  }, "Contact")));
 }
 
 /***/ }),
@@ -185,12 +220,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _media_background_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../media/background.png */ "./app/media/background.png");
 // Imports
 
 
+
+
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_media_background_png__WEBPACK_IMPORTED_MODULE_3__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* VARIABLES */\n/* BASE STYLING */\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: \"Montserrat\", sans-serif;\n}\n\nsection {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n  color: #e92b6d;\n}\nheader h1 {\n  color: #1500ff;\n}\nheader h1:hover {\n  color: green;\n}\n\n#about {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n}", "",{"version":3,"sources":["webpack://./app/css/main.scss","webpack://./app/css/_cover.scss","webpack://./app/css/_about.scss"],"names":[],"mappings":"AAQA,cAAA;AAIA,iBAAA;AACA;EACE,SAAA;EACA,UAAA;EACA,qCANU;AAJZ;;AAaA;EAlBE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,aAAA;AASF;;ACdA;EDCE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,aAAA;ECHA,cDOc;AAchB;ACpBE;EACE,cAAA;ADsBJ;ACrBI;EACE,YAAA;ADuBN;;AE7BA;EFCE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,aAAA;AAgCF","sourcesContent":["@mixin flexCenter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n}\n\n/* VARIABLES */\n$mainTextColor: #e92b6d;\n$body-font: \"Montserrat\", sans-serif;\n\n/* BASE STYLING */\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: $body-font;\n}\n\nsection {\n  @include flexCenter();\n}\n\n@import \"./cover\";\n@import \"./about\";\n","header {\n  @include flexCenter();\n  color: $mainTextColor;\n  h1 {\n    color: rgb(21, 0, 255);\n    &:hover {\n      color: green;\n    }\n  }\n}\n","#about {\n  @include flexCenter();\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* VARIABLES */\n/* BASE STYLING */\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: \"Montserrat\", sans-serif;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\nsection {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n}\n\nnav {\n  font-size: 1.25rem;\n  position: fixed;\n  width: 100vw;\n  background-color: rgba(255, 255, 255, 0.2);\n}\nnav div {\n  display: flex;\n  justify-content: space-evenly;\n  padding: 1vh;\n}\nnav div a {\n  letter-spacing: 0.1rem;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  height: 100vh;\n}\n\n#about {\n  margin: 10rem;\n  font-size: 1.25rem;\n}\n#about div {\n  display: flex;\n  justify-content: space-around;\n  width: auto;\n}\n#about div p {\n  margin: 2em;\n  line-height: 2;\n}\n#about div img {\n  max-height: 35rem;\n}\n\n#experience {\n  font-size: 1.25rem;\n}\n\n#projects {\n  font-size: 1.25rem;\n}\n\n#skills {\n  font-size: 1.25rem;\n}\n\nfooter {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(42, 41, 41, 0.5);\n  padding: 1em;\n}", "",{"version":3,"sources":["webpack://./app/css/main.scss","webpack://./app/css/_nav.scss","webpack://./app/css/_cover.scss","webpack://./app/css/_about.scss","webpack://./app/css/_experience.scss","webpack://./app/css/_projects.scss","webpack://./app/css/_skills.scss","webpack://./app/css/_footer.scss"],"names":[],"mappings":"AAQA,cAAA;AASA,iBAAA;AACA;EACE,SAAA;EACA,UAAA;EACA,qCAVU;EAWV,yDAZS;AAHX;;AAkBA;EACE,qBAAA;EACA,cAAA;AAfF;;AAkBA;EA7BE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBA2BoB;EA1BpB,aAAA;AAeF;;ACpBA;EACE,kBDYiB;ECXjB,eAAA;EACA,YAAA;EACA,0CAAA;ADuBF;ACtBE;EACE,aAAA;EACA,6BAAA;EACA,YAAA;ADwBJ;ACvBI;EACE,sBAAA;ADyBN;;AExBA;EFVE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBEQoB;EFPpB,aAAA;AAsCF;;AG3CA;EACE,aAAA;EACA,kBHWiB;AAmCnB;AG7CE;EACE,aAAA;EACA,6BAAA;EACA,WAAA;AH+CJ;AG9CI;EACE,WAAA;EACA,cAAA;AHgDN;AG9CI;EACE,iBAAA;AHgDN;;AI5DA;EACE,kBJYiB;AAmDnB;;AKhEA;EACE,kBLYiB;AAuDnB;;AMpEA;EACE,kBNYiB;AA2DnB;;AOxEA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uCAAA;EACA,YAAA;AP2EF","sourcesContent":["@mixin flexCenter($direction) {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: $direction;\n  height: 100vh;\n}\n\n/* VARIABLES */\n$mainTextColor: #e92b6d;\n$bg-image: url(\"../media/background.png\");\n$body-font: \"Montserrat\", sans-serif;\n$big-font-size: 6.25rem;\n$medium-font-size: 1.25rem;\n$regular-font-size: 0.95rem;\n$small-font-size: 0.7rem;\n\n/* BASE STYLING */\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: $body-font;\n  background-image: $bg-image;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\nsection {\n  @include flexCenter(column);\n}\n\n@import \"./nav\";\n@import \"./cover\";\n@import \"./about\";\n@import \"./experience\";\n@import \"./projects\";\n@import \"./skills\";\n@import \"./footer\";\n","nav {\n  font-size: $medium-font-size;\n  position: fixed;\n  width: 100vw;\n  background-color: rgba(255, 255, 255, 0.2);\n  div {\n    display: flex;\n    justify-content: space-evenly;\n    padding: 1vh;\n    a {\n      letter-spacing: 0.1rem;\n    }\n  }\n}\n","// header {\n//   @include flexCenter();\n//   color: $mainTextColor;\n//   h1 {\n//     color: rgb(21, 0, 255);\n//     &:hover {\n//       color: green;\n//     }\n//   }\n// }\n\nheader {\n  @include flexCenter(column);\n}\n","#about {\n  margin: 10rem;\n  font-size: $medium-font-size;\n  div {\n    display: flex;\n    justify-content: space-around;\n    width: auto;\n    p {\n      margin: 2em;\n      line-height: 2;\n    }\n    img {\n      max-height: 35rem;\n    }\n  }\n}\n","#experience {\n  font-size: $medium-font-size;\n}\n","#projects {\n  font-size: $medium-font-size;\n}\n","#skills {\n  font-size: $medium-font-size;\n}\n","footer {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: rgba(42, 41, 41, 0.5);\n  padding: 1em;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -309,6 +350,49 @@ module.exports = function cssWithMappingToString(item) {
   }
 
   return [content].join("\n");
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -30482,6 +30566,18 @@ module.exports = function (list, options) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -30496,6 +30592,26 @@ module.exports = function (list, options) {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

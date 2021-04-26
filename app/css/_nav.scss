@@ -1,0 +1,14 @@
+nav {
+  font-size: $medium-font-size;
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vh;
+    a {
+      letter-spacing: 0.1rem;
+    }
+  }
+}

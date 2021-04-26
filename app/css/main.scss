@@ -1,25 +1,41 @@
-@mixin flexCenter {
+@mixin flexCenter($direction) {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: $direction;
   height: 100vh;
 }
 
 /* VARIABLES */
 $mainTextColor: #e92b6d;
+$bg-image: url("../media/background.png");
 $body-font: "Montserrat", sans-serif;
+$big-font-size: 6.25rem;
+$medium-font-size: 1.25rem;
+$regular-font-size: 0.95rem;
+$small-font-size: 0.7rem;
 
 /* BASE STYLING */
 body {
   margin: 0;
   padding: 0;
   font-family: $body-font;
+  background-image: $bg-image;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 section {
-  @include flexCenter();
+  @include flexCenter(column);
 }
 
+@import "./nav";
 @import "./cover";
 @import "./about";
+@import "./experience";
+@import "./projects";
+@import "./skills";
+@import "./footer";

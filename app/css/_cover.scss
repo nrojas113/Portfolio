@@ -1,10 +1,14 @@
+// header {
+//   @include flexCenter();
+//   color: $mainTextColor;
+//   h1 {
+//     color: rgb(21, 0, 255);
+//     &:hover {
+//       color: green;
+//     }
+//   }
+// }
+
 header {
-  @include flexCenter();
-  color: $mainTextColor;
-  h1 {
-    color: rgb(21, 0, 255);
-    &:hover {
-      color: green;
-    }
-  }
+  @include flexCenter(column);
 }
