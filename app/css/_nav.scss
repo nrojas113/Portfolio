@@ -82,10 +82,6 @@ nav {
       &.open {
         transform: translateX(0);
       }
-
-      &.active > a {
-        color: $primary-color;
-      }
     }
 
     &_link {
@@ -95,13 +91,16 @@ nav {
       font-weight: 300;
       @include transition-ease;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         color: $primary-color;
       }
     }
   }
 }
 
+/*Delay the display of nav menu items*/
 @for $i from 1 through 5 {
   .menu-nav_item:nth-child(#{$i}) {
     transition-delay: ($i * 0.1s) + 0.15s;
