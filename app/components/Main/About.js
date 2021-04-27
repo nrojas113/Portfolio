@@ -1,12 +1,10 @@
 import React from "react";
-import image from "../../media/girl.jpg";
 
 export default function About() {
   return (
     <section id="about">
       <h1>About Me</h1>
       <div>
-        <img src={image} alt="red hair girl drawing" />
         <p>
           Hi. I'm Natalie Rojas, a fullstack software engineer based in Jersey
           City. I'm a fullstack developer and UI/UX enthusiast. My interest in

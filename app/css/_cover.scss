@@ -1,14 +1,12 @@
-// header {
-//   @include flexCenter();
-//   color: $mainTextColor;
-//   h1 {
-//     color: rgb(21, 0, 255);
-//     &:hover {
-//       color: green;
-//     }
-//   }
-// }
-
-header {
-  @include flexCenter(column);
+#cover {
+  &_name {
+    font-size: $big-font-size;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+    &--last {
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }
 }

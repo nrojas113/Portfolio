@@ -6,21 +6,40 @@
   height: 100vh;
 }
 
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
 /* VARIABLES */
-$mainTextColor: #e92b6d;
-$bg-image: url("../media/background.png");
+$primary-color: rgb(172, 3, 85);
+$bg-image-paper: url("../media/background.png");
+$bg-image-girl: url("../media/girl-balloon.png");
 $body-font: "Montserrat", sans-serif;
-$big-font-size: 6.25rem;
+$big-font-size: 4rem;
 $medium-font-size: 1.25rem;
 $regular-font-size: 0.95rem;
 $small-font-size: 0.7rem;
 
-/* BASE STYLING */
-body {
+/* RESET STYLING */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* BASE STYLING */
+
+body {
+  height: 100vh;
   font-family: $body-font;
-  background-image: $bg-image;
+  background: $bg-image-paper, no-repeat top 400px right 100px $bg-image-girl;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
 }
 
 a {
@@ -28,6 +47,21 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  padding: 1rem;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
 section {
   @include flexCenter(column);
 }

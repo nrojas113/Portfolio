@@ -10,7 +10,9 @@ import Footer from "./Footer";
 const Root = () => {
   return (
     <>
-      <Nav />
+      <header>
+        <Nav />
+      </header>
       <main>
         <Cover />
         <About />
@@ -18,7 +20,9 @@ const Root = () => {
         <Experience />
         <Projects />
       </main>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
