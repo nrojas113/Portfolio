@@ -1,12 +1,14 @@
 import React from "react";
+import profileImg from "../../media/profile_photo.jpeg";
 
 export default function About() {
   return (
     <section id="about">
-      <h1>About Me</h1>
+      <h1 className="section_title">About Me</h1>
       <div>
+        <img src={profileImg} alt="Natalie's Profile Photo" />
         <p>
-          Hi. I'm Natalie Rojas, a fullstack software engineer based in Jersey
+          Hi! I'm Natalie Rojas, a fullstack software engineer based in Jersey
           City. I'm a fullstack developer and UI/UX enthusiast. My interest in
           technology came from when
           <br />I love learning about different roots and cultural harmony.

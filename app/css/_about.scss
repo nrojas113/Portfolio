@@ -1,11 +1,16 @@
 #about {
-  font-size: $medium-font-size;
+  font-size: $regular-font-size;
   div {
     display: flex;
     justify-content: space-around;
     p {
       margin: 2em;
       line-height: 2;
+    }
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 30px;
     }
   }
 }

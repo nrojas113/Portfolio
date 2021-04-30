@@ -11,16 +11,34 @@ export default function Footer() {
   return (
     <>
       <div className="social-icons">
-        <a href="#!">
+        <a
+          href="mailto:natalie.rojas113@gmail.com?subject=Hello!"
+          aria-label="send Natalie an email"
+        >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
-        <a href="#!">
+        <a
+          href="https://www.linkedin.com/in/natalie-o-rojas/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="visit Natalie's LinkedIn page"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="#!">
+        <a
+          href="https://github.com/nrojas113"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="visit Natalie's GitHub page"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="#!">
+        <a
+          href="https://natalie-rojas113.medium.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="visit Natalie's Medium page"
+        >
           <FontAwesomeIcon icon={faMediumM} />
         </a>
       </div>
