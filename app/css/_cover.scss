@@ -1,4 +1,6 @@
 #cover {
+  background: no-repeat center/100% url("../media/cover_image.jpg");
+
   text-transform: uppercase;
   &_more {
     cursor: pointer;

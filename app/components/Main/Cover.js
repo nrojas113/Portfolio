@@ -2,14 +2,13 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
-
 import video from "../../media/nature.mov";
 
 export default function Cover() {
   const [more, setMore] = useState(true);
   useEffect(() => {
     console.log(
-      "Hello! So nice to see you here! If you liked my website and looking for fullstack/frontend developer, I'd love to connect! My email is natalie.rojas113@gmail.com"
+      "Hello there! I see you peeking! If you like my website and looking for fullstack/frontend developer, I'd love to connect! My email is natalie.rojas113@gmail.com. Thanks :)"
     );
   }, []);
   return (
