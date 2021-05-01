@@ -89,6 +89,7 @@ nav {
       text-transform: uppercase;
       padding: 2rem 0;
       font-weight: 300;
+      cursor: pointer;
       @include transition-ease;
 
       &:hover,
@@ -101,7 +102,7 @@ nav {
 }
 
 /*Delay the display of nav menu items*/
-@for $i from 1 through 5 {
+@for $i from 1 through 6 {
   .menu-nav_item:nth-child(#{$i}) {
     transition-delay: ($i * 0.1s) + 0.15s;
   }

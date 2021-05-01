@@ -1,4 +1,30 @@
 #cover {
+  text-transform: uppercase;
+  &_more {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10vh;
+    text-align: center;
+    font-size: $regular-font-size;
+    animation: pulse 3s infinite ease-in-out;
+    @keyframes pulse {
+      0% {
+        transform: scale(0.9);
+        opacity: 0.8;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.9);
+        opacity: 0.8;
+      }
+    }
+    p {
+      margin-bottom: 1.5em;
+    }
+  }
   &_name {
     font-size: $big-font-size;
     padding-bottom: 1rem;

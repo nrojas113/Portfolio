@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 export default function Nav() {
   const [showMenu, setShowMenu] = useState(false);
@@ -17,29 +18,34 @@ export default function Nav() {
       <nav className={`${open}`}>
         <ul className={`menu-nav ${open}`}>
           <li className={`menu-nav_item ${open}`}>
-            <a href="#" className="menu-nav_link">
-              Home
-            </a>
+            <Link to="cover" smooth={true} className="menu-nav_link">
+              Home{" "}
+            </Link>
           </li>
           <li className={`menu-nav_item ${open}`}>
-            <a href="#about" className="menu-nav_link">
+            <Link to="about" smooth={true} className="menu-nav_link">
               About
-            </a>
+            </Link>
           </li>
           <li className={`menu-nav_item ${open}`}>
-            <a href="#projects" className="menu-nav_link">
-              Projects
-            </a>
+            <Link to="skills" smooth={true} className="menu-nav_link">
+              Tech Skills
+            </Link>
           </li>
           <li className={`menu-nav_item ${open}`}>
-            <a href="#experience" className="menu-nav_link">
+            <Link to="experience" smooth={true} className="menu-nav_link">
               Experience
-            </a>
+            </Link>
           </li>
           <li className={`menu-nav_item ${open}`}>
-            <a href="#" className="menu-nav_link">
+            <Link to="projects" smooth={true} className="menu-nav_link">
+              Projects
+            </Link>
+          </li>
+          <li className={`menu-nav_item ${open}`}>
+            <Link to="cover" smooth={true} className="menu-nav_link">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

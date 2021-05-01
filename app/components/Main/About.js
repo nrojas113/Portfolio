@@ -6,7 +6,7 @@ export default function About() {
     <section id="about">
       <h1 className="section_title">About Me</h1>
       <div>
-        <img src={profileImg} alt="Natalie's Profile Photo" />
+        <img src={profileImg} alt="Natalie's Profile Photo" loading="lazy" />
         <p>
           Hi! I'm Natalie Rojas, a fullstack software engineer based in Jersey
           City. I'm a fullstack developer and UI/UX enthusiast. My interest in
