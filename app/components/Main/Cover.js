@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 import video from "../../media/nature.mov";
 
 export default function Cover() {
+  const [more, setMore] = useState(true);
   useEffect(() => {
     console.log(
       "Hello! So nice to see you here! If you liked my website and looking for fullstack/frontend developer, I'd love to connect! My email is natalie.rojas113@gmail.com"
@@ -32,12 +33,14 @@ export default function Cover() {
       >
         <source src={video}></source>
       </video> */}
-      <div id="cover_more">
-        <Link to="about" smooth={true}>
-          <p>Learn More</p>
-          <FontAwesomeIcon icon={faArrowDown} />
-        </Link>
-      </div>
+      {more && (
+        <div id="cover_more">
+          <Link to="about" smooth={true} onClick={() => setMore(false)}>
+            <p>Learn More</p>
+            <FontAwesomeIcon icon={faArrowDown} />
+          </Link>
+        </div>
+      )}
     </section>
   );
 }
