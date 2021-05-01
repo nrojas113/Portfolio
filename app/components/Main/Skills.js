@@ -1,4 +1,5 @@
 import React from "react";
+import { proficient, knowledgeable, learning } from "../../data/TechSkillsData";
 
 export default function Skills() {
   return (
@@ -6,17 +7,21 @@ export default function Skills() {
       <h1 className="section_title">Tech Skills</h1>
       <h2>Proficient</h2>
       <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <li>Skill 4</li>
+        {proficient.map((skill, idx) => (
+          <li key={idx}>{skill}</li>
+        ))}
       </ul>
-      <h2>Learning</h2>
+      <h2>knowledgeable</h2>
       <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <li>Skill 4</li>
+        {knowledgeable.map((skill, idx) => (
+          <li key={idx}>{skill}</li>
+        ))}
+      </ul>
+      <h2>learning</h2>
+      <ul>
+        {learning.map((skill, idx) => (
+          <li key={idx}>{skill}</li>
+        ))}
       </ul>
     </section>
   );

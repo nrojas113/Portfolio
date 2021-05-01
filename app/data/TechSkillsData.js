@@ -1,4 +1,4 @@
-const proficient = [
+export const proficient = [
   "React",
   "Redux",
   "JavaScript",
@@ -11,6 +11,12 @@ const proficient = [
   "Git & GitHub",
 ];
 
-const knowledgeable = ["SQL", "Firebase", "React Native", "Babel", "Heroku"];
+export const knowledgeable = [
+  "SQL",
+  "Firebase",
+  "React Native",
+  "Babel",
+  "Heroku",
+];
 
-const learning = ["graphQL", "TypeScript", "React Hooks", "PWA"];
+export const learning = ["graphQL", "TypeScript", "React Hooks", "PWA"];
