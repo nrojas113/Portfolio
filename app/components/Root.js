@@ -17,8 +17,8 @@ const Root = () => {
         <Cover />
         <About />
         <Skills />
-        <Experience />
         <Projects />
+        <Experience />
       </main>
       <footer>
         <Footer />

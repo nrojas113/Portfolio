@@ -1,8 +1,8 @@
 #projects {
-  background-color: rgba(223, 23, 150, 0.1);
   &_body {
     display: flex;
     flex-direction: column;
+    width: 70%;
     &_single {
       border: 2px solid gray;
       display: flex;
@@ -33,6 +33,23 @@
         width: 30%;
         height: 100%;
         border: 2px solid gray;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #projects {
+    height: 100%;
+    &_body {
+      &_single {
+        flex-direction: column;
+        &--description {
+          width: 100%;
+        }
+        &--image {
+          width: 100%;
+        }
       }
     }
   }

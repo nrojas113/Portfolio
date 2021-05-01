@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "RoastFlix",
-    description: "Browser app that analyzes user's Netflix View History",
+    description: "Web app that analyzes user's Netflix View History",
     link: true,
     demoUrl: "https://roastflix-309106.uk.r.appspot.com/",
     github: "https://github.com/capstone-team-terra/roast-me",

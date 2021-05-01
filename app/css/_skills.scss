@@ -1,5 +1,4 @@
 #skills {
-  background-color: rgba(223, 23, 150, 0.1);
   h2 {
     font-size: $medium-font-size;
   }
@@ -12,5 +11,11 @@
       padding: 1em;
       font-size: $regular-font-size;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #skills {
+    height: 100%;
   }
 }
