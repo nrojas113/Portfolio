@@ -15,7 +15,7 @@ footer {
       padding: 1rem;
       @include transition-ease;
       &:hover {
-        color: $primary-color;
+        color: $secondary-color;
       }
     }
   }

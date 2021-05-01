@@ -1,7 +1,24 @@
 #cover {
-  background: no-repeat center/100% url("../media/cover_image.jpg");
-
+  position: relative;
+  background-image: linear-gradient(
+      rgba(243, 242, 221, 0.7),
+      rgba(248, 247, 216, 0.4)
+    ),
+    url("../media/cover_image.jpg");
+  background-size: cover;
+  background-position: center;
   text-transform: uppercase;
+
+  &_name {
+    font-size: $big-font-size;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid black;
+    &--last {
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }
   &_more {
     cursor: pointer;
     position: absolute;
@@ -25,16 +42,6 @@
     }
     p {
       margin-bottom: 1.5em;
-    }
-  }
-  &_name {
-    font-size: $big-font-size;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid black;
-    &--last {
-      color: $primary-color;
-      font-weight: 700;
     }
   }
 }

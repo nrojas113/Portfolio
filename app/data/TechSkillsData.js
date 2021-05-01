@@ -1,22 +1,22 @@
 export const proficient = [
+  "JavaScript",
   "React",
   "Redux",
-  "JavaScript",
   "Node.js",
   "Express",
   "PostgreSQL",
-  "Webpack",
   "HTML5",
   "CSS3",
-  "Git & GitHub",
+  "Bootstrap",
+  "Git",
 ];
 
 export const knowledgeable = [
-  "SQL",
-  "Firebase",
-  "React Native",
-  "Babel",
   "Heroku",
+  "Sass",
+  "React Native",
+  "Firebase",
+  "SQL",
 ];
 
-export const learning = ["graphQL", "TypeScript", "React Hooks", "PWA"];
+export const learning = ["React Hooks", "GraphQL", "TypeScript", "PWA"];

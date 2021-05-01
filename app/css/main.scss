@@ -1,10 +1,10 @@
-@mixin flexCenter($direction) {
+@mixin flexCenter() {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: $direction;
+  flex-direction: column;
   height: 100vh;
-  margin: 0 10%;
+  // margin: 0 10%;
 }
 
 @mixin transition-ease {
@@ -12,7 +12,8 @@
 }
 
 /* VARIABLES */
-$primary-color: rgb(172, 3, 85);
+$secondary-color: rgb(172, 3, 85);
+$primary-color: rgb(53, 52, 52);
 $bg-image-paper: url("../media/background.png");
 $bg-image-girl: url("../media/girl-balloon.png");
 $body-font: "Montserrat", sans-serif;
@@ -37,6 +38,7 @@ body {
   // line-height: 1;
   background: $bg-image-paper;
   line-height: 1;
+  color: $primary-color;
 }
 
 h1,
@@ -66,10 +68,10 @@ main {
   width: 100%;
 }
 section {
-  @include flexCenter(column);
+  @include flexCenter();
   .section_title {
     font-size: $medium-font-size;
-    border-bottom: solid 3px $primary-color;
+    border-bottom: solid 3px $secondary-color;
     margin: 2em;
     padding-bottom: 0.5em;
   }

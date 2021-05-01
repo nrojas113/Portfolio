@@ -1,4 +1,39 @@
 #projects {
-  font-size: $medium-font-size;
   background-color: rgba(223, 23, 150, 0.1);
+  &_body {
+    display: flex;
+    flex-direction: column;
+    &_single {
+      border: 2px solid gray;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &--description {
+        padding: 2em;
+        width: 70%;
+        height: 100%;
+        border: 2px solid gray;
+        h2 {
+          font-size: $medium-font-size;
+          margin-bottom: 1em;
+        }
+        p {
+          font-size: $regular-font-size;
+          margin-bottom: 1em;
+          line-height: 1.5;
+        }
+        span {
+          padding-right: 1em;
+          a {
+            border-bottom: dashed 2px $primary-color;
+          }
+        }
+      }
+      &--image {
+        width: 30%;
+        height: 100%;
+        border: 2px solid gray;
+      }
+    }
+  }
 }

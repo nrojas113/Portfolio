@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faJsSquare,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { proficient, knowledgeable, learning } from "../../data/TechSkillsData";
 
 export default function Skills() {
@@ -17,7 +23,7 @@ export default function Skills() {
           <li key={idx}>{skill}</li>
         ))}
       </ul>
-      <h2>learning</h2>
+      <h2>Learning</h2>
       <ul>
         {learning.map((skill, idx) => (
           <li key={idx}>{skill}</li>

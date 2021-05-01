@@ -14,9 +14,9 @@ export default function Cover() {
   return (
     <section id="cover">
       <h1 id="cover_name">
-        Hi. I'm Natalie <span id="cover_name--last"></span>
+        Hello. I'm Natalie <span id="cover_name--last"></span>
       </h1>
-      <h2>Software Engineer</h2>
+      <h2>A Fullstack Software Developer</h2>
       {/* <video
         autoPlay
         loop

@@ -92,10 +92,8 @@ nav {
       cursor: pointer;
       @include transition-ease;
 
-      &:hover,
-      &:focus,
-      &:active {
-        color: $primary-color;
+      &:hover {
+        color: $secondary-color;
       }
     }
   }
