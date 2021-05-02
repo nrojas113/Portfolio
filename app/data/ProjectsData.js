@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "RoastFlix",
+    title: "RoastFLIX",
     description: "Web app that analyzes user's Netflix View History",
     isDeployed: true,
     deployLink: "https://roastflix-309106.uk.r.appspot.com/",
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "MyFitBot",
+    title: "My FitBot",
     description:
       "Mobile app with personal bot that motivates user to increase daily steps",
     isDeployed: false,
@@ -23,16 +23,6 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Rogue Pets",
-    description: "E-Commerce site for pet toys",
-    isDeployed: true,
-    deployLink: "https://rogue-shopper.herokuapp.com/products",
-    isVideo: false,
-    github: "https://github.com/RogueShoppers/RogueShopper",
-    imageName: "rogue",
-  },
-  {
-    id: 4,
     title: "Kiki's Recipe",
     description: "Web app that suggests recipe ideas based on ingredients",
     isDeployed: true,
@@ -40,5 +30,15 @@ export const projects = [
     isVideo: false,
     github: "https://github.com/graceHackers/recipe_graphQL",
     imageName: "Kiki",
+  },
+  {
+    id: 4,
+    title: "Rogue Pets",
+    description: "E-Commerce site for pet toys",
+    isDeployed: true,
+    deployLink: "https://rogue-shopper.herokuapp.com/products",
+    isVideo: false,
+    github: "https://github.com/RogueShoppers/RogueShopper",
+    imageName: "rogue",
   },
 ];

@@ -84,12 +84,12 @@ export default function Skills() {
           </li>
         </ul>
       </IconContext.Provider>
-      <h3>
+      <h2>
         Currently learning:
         {learning.map((skill, idx) => (
           <span key={idx}>{skill}</span>
         ))}
-      </h3>
+      </h2>
     </section>
   );
 }

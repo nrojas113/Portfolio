@@ -12,9 +12,10 @@
   "author": "Natalie Rojas",
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-icons": "^4.2.0",
+    "react-particles-js": "^3.4.1",
     "react-scroll": "^1.8.2"
   },
   "devDependencies": {

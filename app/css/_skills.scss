@@ -1,6 +1,6 @@
 #skills {
   height: 100vh;
-  h3 {
+  h2 {
     font-size: $regular-font-size;
     margin-top: 2em;
     font-style: italic;
@@ -29,10 +29,10 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1017px) {
   #skills {
     height: 100%;
-    h3 {
+    h2 {
       text-align: center;
       line-height: 2;
       span {
