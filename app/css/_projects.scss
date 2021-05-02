@@ -5,18 +5,22 @@
     width: 70%;
     &_single {
       // border: 2px solid gray;
-      background-color: rgba(240, 236, 236, 0.3);
+      background-color: rgba(247, 217, 162, 0.3);
       box-shadow: 0 2px 6px rgb(0 0 0 / 60%);
       margin-bottom: 3em;
       display: flex;
       flex-direction: row;
       align-items: center;
       &--description {
-        padding: 2em;
+        padding: 5em;
         width: 60%;
         h2 {
           font-size: $medium-font-size;
           margin-bottom: 2em;
+          // background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+          // background-repeat: no-repeat;
+          // background-size: 25%;
+          // // padding: 10px 0;
         }
         p {
           font-size: $regular-font-size;
