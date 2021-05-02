@@ -1,11 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMediumM,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FaMediumM, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -15,7 +9,7 @@ export default function Footer() {
           href="mailto:natalie.rojas113@gmail.com?subject=Hello!"
           aria-label="send Natalie an email"
         >
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FaEnvelope />
         </a>
         <a
           href="https://www.linkedin.com/in/natalie-o-rojas/"
@@ -23,7 +17,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="visit Natalie's LinkedIn page"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FaLinkedin />
         </a>
         <a
           href="https://github.com/nrojas113"
@@ -31,7 +25,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="visit Natalie's GitHub page"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <FaGithub />
         </a>
         <a
           href="https://natalie-rojas113.medium.com/"
@@ -39,7 +33,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="visit Natalie's Medium page"
         >
-          <FontAwesomeIcon icon={faMediumM} />
+          <FaMediumM />{" "}
         </a>
       </div>
       <p>@ 2021 Natalie Rojas | All Rights Reserved</p>

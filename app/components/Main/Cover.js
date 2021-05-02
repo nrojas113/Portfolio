@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FaArrowDown } from "react-icons/fa";
 import { Link } from "react-scroll";
-import video from "../../media/nature.mov";
+// import video from "../../media/nature.mov";
 
 export default function Cover() {
   const [more, setMore] = useState(true);
@@ -36,7 +35,7 @@ export default function Cover() {
         <div id="cover_more">
           <Link to="about" smooth={true} onClick={() => setMore(false)}>
             <p>Learn More</p>
-            <FontAwesomeIcon icon={faArrowDown} />
+            <FaArrowDown />
           </Link>
         </div>
       )}

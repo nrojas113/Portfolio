@@ -1,6 +1,11 @@
 #skills {
-  h2 {
-    font-size: $medium-font-size;
+  h3 {
+    font-size: $regular-font-size;
+    margin-top: 2em;
+    font-style: italic;
+    span {
+      margin-left: 1em;
+    }
   }
   ul {
     display: flex;
@@ -8,14 +13,35 @@
     justify-content: center;
     margin: 2.5em;
     li {
-      padding: 1em;
+      width: 20%;
       font-size: $regular-font-size;
+      text-align: center;
+      margin: 2em 0;
+      p {
+        margin-top: 1em;
+      }
     }
+  }
+  p {
+    font-size: $regular-font-size;
   }
 }
 
 @media screen and (max-width: 1200px) {
   #skills {
     height: 100%;
+    h3 {
+      text-align: center;
+      line-height: 2;
+      span {
+        margin-left: 0.5em;
+      }
+    }
+    ul {
+      flex-direction: column;
+      li {
+        width: 100%;
+      }
+    }
   }
 }
