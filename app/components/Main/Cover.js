@@ -13,7 +13,8 @@ export default function Cover() {
   return (
     <section id="cover">
       <h1 id="cover_name">
-        Hello. I'm Natalie <span id="cover_name--last"></span>
+        Hello. <br />
+        I'm Natalie <span id="cover_name--last"></span>
       </h1>
       <h2>A Fullstack Software Developer</h2>
       {/* <video

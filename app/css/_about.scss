@@ -1,15 +1,17 @@
 #about {
+  height: 100vh;
   margin: 0 10%;
   font-size: $regular-font-size;
   div {
     display: flex;
     justify-content: space-around;
     p {
+      width: 60%;
       margin: 2em;
       line-height: 2;
     }
     img {
-      width: 100%;
+      width: 30%;
       height: 550px;
       object-fit: cover;
       object-position: top;

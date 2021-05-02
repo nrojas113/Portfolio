@@ -4,25 +4,27 @@
     flex-direction: column;
     width: 70%;
     &_single {
-      border: 2px solid gray;
+      // border: 2px solid gray;
+      background-color: rgba(240, 236, 236, 0.3);
+      box-shadow: 0 2px 6px rgb(0 0 0 / 60%);
+      margin-bottom: 3em;
       display: flex;
       flex-direction: row;
       align-items: center;
       &--description {
         padding: 2em;
-        width: 70%;
-        height: 100%;
-        border: 2px solid gray;
+        width: 60%;
         h2 {
           font-size: $medium-font-size;
-          margin-bottom: 1em;
+          margin-bottom: 2em;
         }
         p {
           font-size: $regular-font-size;
-          margin-bottom: 1em;
+          margin-bottom: 2em;
           line-height: 1.5;
         }
         span {
+          font-size: $regular-font-size;
           padding-right: 1em;
           a {
             border-bottom: dashed 2px $primary-color;
@@ -30,9 +32,10 @@
         }
       }
       &--image {
-        width: 30%;
-        height: 100%;
-        border: 2px solid gray;
+        width: 40%;
+        img {
+          width: 100%;
+        }
       }
     }
   }
