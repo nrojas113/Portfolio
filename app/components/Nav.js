@@ -32,18 +32,19 @@ export default function Nav() {
               Tech Skills
             </Link>
           </li>
-          <li className={`menu-nav_item ${open}`}>
-            <Link to="experience" smooth={true} className="menu-nav_link">
-              Experience
-            </Link>
-          </li>
+
           <li className={`menu-nav_item ${open}`}>
             <Link to="projects" smooth={true} className="menu-nav_link">
               Projects
             </Link>
           </li>
           <li className={`menu-nav_item ${open}`}>
-            <Link to="cover" smooth={true} className="menu-nav_link">
+            <Link to="experience" smooth={true} className="menu-nav_link">
+              Experience
+            </Link>
+          </li>
+          <li className={`menu-nav_item ${open}`}>
+            <Link to="contact" smooth={true} className="menu-nav_link">
               Contact
             </Link>
           </li>
