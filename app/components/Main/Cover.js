@@ -4,11 +4,12 @@ import Particles from "react-particles-js";
 import { Link } from "react-scroll";
 
 export default function Cover() {
-  const [more, setMore] = useState(true);
+  const [more, setMore] = useState(false);
   useEffect(() => {
     console.log(
       "Hello there! I see you peeking! If you like my website and looking for fullstack/frontend developer, I'd love to connect! My email is natalie.rojas113@gmail.com. Thanks :)"
     );
+    setTimeout(() => setMore(true), 5000);
   }, []);
 
   return (
@@ -68,7 +69,6 @@ export default function Cover() {
           }}
         />
       </div>
-
       <h1 id="cover_name">
         Hello. I'm Natalie <span id="cover_name--last"></span>
       </h1>

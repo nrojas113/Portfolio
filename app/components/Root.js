@@ -6,6 +6,7 @@ import Skills from "./Main/Skills";
 import Experience from "./Main/Experience";
 import Projects from "./Main/Projects";
 import Footer from "./Footer";
+import "aos/dist/aos.css";
 
 const Root = () => {
   return (

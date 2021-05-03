@@ -26,13 +26,19 @@ $fireFlyQty: 30;
     margin-bottom: 1rem;
     // text-shadow: 2px 5px 4px rgb(251, 208, 156);
     border-bottom: 3px solid black;
-    &--last {
-      color: $secondary-color;
-      font-weight: 700;
+    animation: fadeIn 8s;
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
   }
   h2 {
     font-size: $regular-font-size;
+    animation: fadeIn 8s;
   }
   &_more {
     cursor: pointer;

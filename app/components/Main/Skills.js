@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { IconContext } from "react-icons";
 import {
   FaReact,
@@ -14,16 +14,19 @@ import {
   SiPostgresql,
   SiRedux,
   SiHeroku,
-  SiFirebase,
   SiWebpack,
 } from "react-icons/si";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import sequelizeIcon from "@iconify-icons/file-icons/sequelize";
+import AOS from "aos";
 import { learning } from "../../data/TechSkillsData";
 
 export default function Skills() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <section id="skills">
+    <section id="skills" data-aos="zoom-in">
       <h1 className="section_title">Tech Skills</h1>
       <IconContext.Provider value={{ size: "5rem" }}>
         <ul>

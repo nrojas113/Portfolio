@@ -12,6 +12,7 @@
   "author": "Natalie Rojas",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-icons": "^4.2.0",
