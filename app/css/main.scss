@@ -3,8 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  // height: 100vh;
-  // margin: 0 10%;
 }
 
 @mixin transition-ease {
@@ -12,7 +10,6 @@
 }
 
 /* VARIABLES */
-// $secondary-color: rgb(172, 3, 85);
 $secondary-color: rgb(228, 185, 69);
 $primary-color: #504f54;
 $bg-image-paper: url("../media/background.png");
@@ -21,7 +18,7 @@ $body-font: "Montserrat", sans-serif;
 $big-font-size: 5rem;
 $medium-font-size: 2.5rem;
 $regular-font-size: 1.7rem;
-$small-font-size: 0.7rem;
+$small-font-size: 1.2rem;
 
 /* RESET STYLING */
 * {
@@ -35,8 +32,6 @@ $small-font-size: 0.7rem;
 body {
   height: 100vh;
   font-family: $body-font;
-  // background: $bg-image-paper, no-repeat top 400px right 100px $bg-image-girl;
-  // line-height: 1;
   background: $bg-image-paper;
   line-height: 1;
   color: $primary-color;

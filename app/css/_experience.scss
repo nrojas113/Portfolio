@@ -1,5 +1,33 @@
 #experience {
-  height: 100vh;
+  height: 100%;
   margin: 0 10%;
-  font-size: $medium-font-size;
+  .vertical-timeline::before {
+    background: rgb(241, 240, 240);
+  }
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgb(160, 158, 158),
+      0 0.4em 1.25em 0 rgba(160, 158, 158, 0.15);
+    padding: 2em 3em;
+  }
+  .date {
+    color: $secondary-color;
+    font-size: $small-font-size;
+  }
+
+  .vertical-timeline-element-title {
+    font-size: $regular-font-size;
+    font-weight: 600;
+    padding: 0.5em 0;
+  }
+  .vertical-timeline-element-subtitle {
+    font-size: $small-font-size;
+    margin-bottom: 1em;
+  }
+  .show_more {
+    cursor: pointer;
+  }
+  &_description {
+    font-size: $small-font-size;
+    margin: 2.5em 0 2em 0;
+  }
 }
