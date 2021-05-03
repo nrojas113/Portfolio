@@ -1,17 +1,22 @@
 #experience {
   height: 100%;
-  margin: 0 10%;
-  .vertical-timeline::before {
-    background: rgb(241, 240, 240);
+  margin: 0 10% 5em 10%;
+
+  .vertical-timeline {
+    &::before {
+      background: rgb(241, 240, 240);
+    }
   }
   .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgb(160, 158, 158),
       0 0.4em 1.25em 0 rgba(160, 158, 158, 0.15);
     padding: 2em 3em;
+    cursor: pointer;
   }
   .date {
-    color: $secondary-color;
+    color: rgb(202, 158, 36);
     font-size: $small-font-size;
+    font-weight: 600;
   }
 
   .vertical-timeline-element-title {
