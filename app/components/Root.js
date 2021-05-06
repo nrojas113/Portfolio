@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Cover from "./Main/Cover";
+import Intro from "./Main/Intro";
 import About from "./Main/About";
 import Skills from "./Main/Skills";
 import Experience from "./Main/Experience";
@@ -17,6 +18,7 @@ const Root = () => {
       </header>
       <main>
         <Cover />
+        <Intro />
         <About />
         <Skills />
         <Projects />
