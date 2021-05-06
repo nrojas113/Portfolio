@@ -5,7 +5,7 @@ export const resumeData = [
     company: "Grace Hopper Program at Fullstack Academy",
     location: "New York, NY",
     description:
-      "Attended The Grace Hopper Program's immersive 17-week coding bootcamp, focused on the fundamentals of fullstack web development.",
+      "Attended The Grace Hopper Program's immersive 17-week coding bootcamp, focused on the fundamentals of fullstack web development. Built 3 full stack applications with various tech stacks.",
     date: "Dec 2020 - Apr 2021",
     type: "school",
   },
@@ -15,7 +15,7 @@ export const resumeData = [
     company: "Syscom Global Solutions",
     location: "New York, NY",
     description:
-      "Designed proposals for ERP/CRM/RPA implementation projects by communicating customer’s business requirements to engineering team and analyzing technical requirements. Conducted project management for system upgrades and software enhancements, for 10+ clients.",
+      "Designed proposals for ERP/CRM/RPA implementation projects. by communicating customer’s business requirements to engineering team and analyzing technical requirements. Conducted project management for system upgrades and software enhancements, for 10+ clients.",
     date: "Jul 2019 - Nov 2020",
     type: "work",
   },
@@ -25,7 +25,7 @@ export const resumeData = [
     company: "JTB USA Inc",
     location: "Jersey City, NJ",
     description:
-      "Led and managed the operations team, consisting of 5 direct reports. Responsible for producing over 500 business events and incentive programs per year",
+      "Led and managed the operations team, consisting of 5 direct reports. Presented in an annual international expo with over 1,000 audience to promote US tourism.",
     date: "Dec 2018 - Jun 2019",
     type: "work",
   },
@@ -45,7 +45,7 @@ export const resumeData = [
     company: "JTB USA Inc",
     location: "Jersey City, NJ",
     description:
-      "Collaborated with IT department to build new reservation platform that streamlined the reservation flow; the effort led to achieving one of the top earning projects of the year.",
+      "Produced 400+ business events & incentive programs for Japanese corporate clients. Collaborated with IT department to build new reservation platform that streamlined the operation flow.",
     date: "Jun 2014 - Nov 2018",
     type: "work",
   },

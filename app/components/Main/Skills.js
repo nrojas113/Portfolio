@@ -26,10 +26,10 @@ export default function Skills() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <section id="skills" data-aos="zoom-in">
+    <section id="skills">
       <h1 className="section_title">Tech Skills</h1>
       <IconContext.Provider value={{ size: "5rem" }}>
-        <ul>
+        <ul data-aos="zoom-in">
           <li>
             <SiJavascript />
             <p>JavaScript</p>
@@ -87,7 +87,7 @@ export default function Skills() {
           </li>
         </ul>
       </IconContext.Provider>
-      <h2>
+      <h2 data-aos="zoom-in">
         Currently learning:
         {learning.map((skill, idx) => (
           <span key={idx}>{skill}</span>

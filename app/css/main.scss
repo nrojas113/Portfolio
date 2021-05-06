@@ -32,7 +32,8 @@ $small-font-size: 1.2rem;
 body {
   height: 100vh;
   font-family: $body-font;
-  background: $bg-image-paper;
+  background: #ffffff;
+  // background: $bg-image-paper;
   line-height: 1;
   color: $primary-color;
 }
