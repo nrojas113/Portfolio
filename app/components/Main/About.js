@@ -10,14 +10,16 @@ export default function About() {
   return (
     <section id="about">
       <h1 className="section_title">About Me</h1>
-      <div>
+      <div id="about_body">
         <img
           src={profileImg}
           alt="Natalie's Profile Photo"
           loading="lazy"
           data-aos="slide-right"
         />
-        <div data-aos="slide-left">{story}</div>
+        <div data-aos="slide-left" id="about_body-bio">
+          {story}
+        </div>
       </div>
     </section>
   );

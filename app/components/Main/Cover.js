@@ -21,7 +21,7 @@ export default function Cover() {
       <h2>A Fullstack Software Developer</h2>
       {more && (
         <div id="cover_more">
-          <Link to="about" smooth={true} onClick={() => setMore(false)}>
+          <Link to="intro" smooth={true} onClick={() => setMore(false)}>
             <p>Learn More</p>
             <FaArrowDown />
           </Link>
