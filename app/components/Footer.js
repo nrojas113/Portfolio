@@ -6,12 +6,6 @@ export default function Footer() {
     <>
       <div className="social-icons">
         <a
-          href="mailto:natalie.rojas113@gmail.com?subject=Hello!"
-          aria-label="send Natalie an email"
-        >
-          <FaEnvelope />
-        </a>
-        <a
           href="https://www.linkedin.com/in/natalie-o-rojas/"
           target="_blank"
           rel="noopener noreferrer"
