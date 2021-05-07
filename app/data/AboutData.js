@@ -12,7 +12,7 @@ export const intro = (
     <p>
       A graduate of The Grace Hopper Program at Fullstack Academy, a immersive
       17 weeks software engineering bootcamp where I learned the fullstack
-      JavaScript development, including React, Redux, Node.js, Express,
+      JavaScript development, including React, Redux, Node.js, Express, and
       PostgreSQL databases.
     </p>
   </>
