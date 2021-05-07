@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import { story } from "../../data/AboutData";
+import { intro } from "../../data/AboutData";
 
 function Intro() {
-  return <section id="intro">{story}</section>;
+  return <section id="intro">{intro}</section>;
 }
 
 export default Intro;

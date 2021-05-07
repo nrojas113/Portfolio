@@ -1,8 +1,17 @@
 #intro {
   height: 100%;
-  margin: 10%;
+  margin: 10% 20%;
   font-size: $regular-font-size;
+  text-align: center;
+
+  &_statement {
+    font-size: $medium-font-size;
+  }
+  img {
+    width: 150px;
+    margin: 0 auto;
+  }
   p {
-    line-height: 1.5;
+    line-height: 2;
   }
 }
