@@ -1,5 +1,9 @@
 import React from "react";
 import line from "../media/line.png";
+import { FiCheckCircle } from "react-icons/fi";
+import { GiMagnifyingGlass } from "react-icons/gi";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 export const intro = (
   <>
@@ -22,20 +26,34 @@ export const story = (
   <>
     <p>
       I discovered my passion for technology while advocating for digital
-      transformation at my previous role at a travel management company. I soon
-      found myself fascinated with the world of tech, and my love for continuous
-      learning led me to enroll in a Grace Hopper Software Engineering
-      immersive. Today, I successfully transitioned from a project
-      manager/account executive to a fullstack developer. As a developer, I
-      leverage my past customer centric experiences to build visually pleasing
-      and user friendly apps.
+      transformation at my previous roles. I soon found myself fascinated with
+      the world of tech, and my love for continuous learning led me to enroll in
+      a Grace Hopper Software Engineering immersive. Today, I successfully
+      transitioned from a project manager/account executive to a fullstack
+      developer. As a developer, I leverage my past customer centric experiences
+      to build visually pleasing and user friendly apps.
     </p>
     <br />
     <br />
-    <p>
-      Some of my stregths are <strong>eye for detail</strong>,{" "}
-      <strong>strategist</strong>, and <strong>empathy</strong>.
-    </p>
+    <div id="about_body-bio-softskills">
+      <h1>~ My strengths ~</h1>
+      <div id="about_body-bio-softskills-list">
+        <IconContext.Provider value={{ size: "3.5rem", color: "gray" }}>
+          <div>
+            <p>Focus on Quality</p>
+            <FiCheckCircle />
+          </div>
+          <div>
+            <p>Eye for Detail</p>
+            <GiMagnifyingGlass />
+          </div>
+          <div>
+            <p>Empathy</p>
+            <FaHandHoldingHeart />
+          </div>
+        </IconContext.Provider>
+      </div>
+    </div>
     <br />
     {/* <br />I was originally born and spent my childhood in Fukuoka, Japan, where
     my mother's family lives. I learned about American culture and English

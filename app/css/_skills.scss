@@ -3,6 +3,14 @@
   // background: #f7f7f5;
   margin: 5em 0;
   padding-bottom: 5em;
+  // &:after {
+  //   content: " ";
+  //   border-bottom: 100vh solid #f7ecc9;
+  //   border-right: 100vw solid transparent;
+  //   width: 0;
+  //   position: absolute;
+  //   z-index: -1;
+  // }
   h2 {
     font-size: $regular-font-size;
     margin-top: 2em;

@@ -8,6 +8,30 @@
     &-bio {
       margin: 2em 4em;
       max-width: 55rem;
+      &-softskills {
+        h1 {
+          font-size: 1.1em;
+          font-weight: 500;
+          margin-bottom: 1.5em;
+          text-align: center;
+          color: $secondary-color;
+        }
+        &-list {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          div {
+            margin: 0 2em;
+            // svg {
+            //   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+            //   border-radius: 50%;
+            // }
+            p {
+              margin-bottom: 1em;
+            }
+          }
+        }
+      }
       p {
         line-height: 1.5;
         text-align: justify;
