@@ -1,1 +1,1 @@
-export const learning = ["React Hooks", "GraphQL", "Firebase", "TypeScript"];
+export const learning = ["React Hooks", "GraphQL", "TypeScript"];

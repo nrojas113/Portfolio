@@ -4,7 +4,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { MdSchool } from "react-icons/md";
 
 function SingleExperience({ data }) {
-  const { id, date, type, title, company, description } = data;
+  const { date, type, title, company, description } = data;
   const [showDescription, setShowDescription] = useState(false);
   const isWorkIcon = type === "work";
   const toggleDescription = () => {
@@ -14,7 +14,6 @@ function SingleExperience({ data }) {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      key={id}
       date={date}
       dateClassName="date"
       icon={isWorkIcon ? <CgWorkAlt /> : <MdSchool />}

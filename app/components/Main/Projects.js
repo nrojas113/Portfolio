@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import SingleProject from "./SingleProject";
 import { projects } from "../../data/ProjectsData";
 import AOS from "aos";
-// AOS.init({ once: true, useClassNames: true });
 
 export default function Projects() {
   useEffect(() => {

@@ -10,7 +10,7 @@ export default function Experience() {
       <h1 className="section_title">Experience</h1>
       <VerticalTimeline>
         {resumeData.map((data) => {
-          return <SingleExperience data={data} />;
+          return <SingleExperience data={data} key={data.id} />;
         })}
       </VerticalTimeline>
     </section>
