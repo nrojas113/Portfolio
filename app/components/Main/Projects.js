@@ -12,11 +12,7 @@ export default function Projects() {
       <h1 className="section_title">Projects</h1>
       <div id="projects_body">
         {projects.map((project) => {
-          return (
-            <div key={project.id} id="projects_body_single" data-aos="zoom-in">
-              <SingleProject {...project} />
-            </div>
-          );
+          return <SingleProject {...project} key={project.id} />;
         })}
       </div>
     </section>

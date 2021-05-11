@@ -1,14 +1,27 @@
 import React from "react";
+const requestImageFile = require.context("../../media", false, /.png$/);
 
-function SingleProjectBack({ flip }) {
+function SingleProjectBack(prop) {
+  const { imageName, title, teckStack, setFlip, longDescription } = prop;
   return (
-    <div className="back">
-      <h1>Back of the card</h1>
-      <p>Background of project: This was for Mintbean's GraphQL Learnathon.</p>
-      <p>Teck Stack: React, Redux, Bootstrap, Express, Node.js</p>
-      <p>Challenge: Deployment, Netflix API</p>
-      <div onClick={flip}>More Details</div>
-    </div>
+    <>
+      <div id="projects_body_single--image">
+        <img
+          src={requestImageFile(`./${imageName}_mockup.png`)}
+          loading="lazy"
+          alt={`Main page image for ${title}`}
+        />
+      </div>
+      <div id="projects_body_single--description">
+        <p>{longDescription}</p>
+        <p>Teck Stack: {teckStack}</p>
+      </div>
+      <div id="projects_body_single--arrow">
+        <button type="button" onClick={() => setFlip(false)}>
+          Back
+        </button>
+      </div>
+    </>
   );
 }
 
