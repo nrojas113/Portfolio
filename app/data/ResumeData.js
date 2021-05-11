@@ -15,7 +15,7 @@ export const resumeData = [
     company: "Syscom Global Solutions",
     location: "New York, NY",
     description:
-      "Designed proposals for ERP/CRM/RPA implementation projects. by communicating customer’s business requirements to engineering team and analyzing technical requirements. Conducted project management for system upgrades and software enhancements, for 10+ clients.",
+      "Designed proposals for ERP/CRM/RPA implementation projects. Effectively communicated customer’s business requirements to engineering team and analyzed technical requirements. Conducted project management for system upgrades and software enhancements, for 10+ clients.",
     date: "Jul 2019 - Nov 2020",
     type: "work",
   },

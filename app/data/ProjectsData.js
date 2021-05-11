@@ -35,7 +35,7 @@ export const projects = [
     title: "Kiki's Recipe",
     description: "Web app that suggest's recipe ideas based on ingredients",
     longDescription:
-      "This app won the 'most creative' in Hackathon hosted by Mintbean and StepZen. At Kiki's Recipe, user can add up to 10 ingredients, and the app will display results with recipe ideas based on submitted ingredients. The challenge for the Hackathon was to build GraphQL API, and we connected a REST service from Spoonacular API to receive recipe, instructions, ingrients data back to frontend.",
+      "This app won the 'most creative' in Hackathon hosted by Mintbean and StepZen. At Kiki's Recipe, user can add up to 10 ingredients, and the app will display results with recipe ideas based on submitted ingredients. The challenge for the Hackathon was to build GraphQL API, and we connected a REST service from Spoonacular API to receive recipe, instructions, ingridients data back to frontend.",
     teckStack:
       "React, Bootstrap, Spoonacular API, Apollo Client, GraphQL, StepZen, Heroku",
     isDeployed: true,
