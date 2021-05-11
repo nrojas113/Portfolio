@@ -86,11 +86,15 @@
         flex-direction: column;
       }
       &_single {
+        text-align: center;
         &--description {
           width: 100%;
         }
         &--image {
           width: 100%;
+        }
+        &--arrow {
+          align-self: center;
         }
       }
     }
@@ -102,12 +106,41 @@
     &_body {
       &_single {
         &--description {
+          padding: 2em;
+          h2 {
+            font-size: $medium-font-size;
+          }
+          p {
+            font-size: $small-font-size;
+            margin-bottom: 0;
+          }
           div {
             span {
+              font-size: $small-font-size;
+
               display: block;
               padding: 1em;
               line-height: 1;
             }
+          }
+        }
+        &--arrow {
+          button {
+            font-size: $small-font-size;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #projects {
+    &_body {
+      &_single {
+        &--description {
+          h2 {
+            font-size: 1.5em;
           }
         }
       }
