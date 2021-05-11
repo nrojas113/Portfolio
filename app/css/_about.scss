@@ -50,11 +50,20 @@
 @media screen and (max-width: 1200px) {
   #about {
     height: 100%;
+    &_body-bio-softskills-list {
+      div {
+        margin-bottom: 2em;
+        p {
+          text-align: center;
+        }
+      }
+    }
     div {
       flex-direction: column;
       align-items: center;
       img {
-        width: 50%;
+        width: 60%;
+        height: 400px;
       }
     }
   }
@@ -63,5 +72,6 @@
 @media screen and (max-width: 800px) {
   #about {
     margin: 0 1%;
+    font-size: $small-font-size;
   }
 }

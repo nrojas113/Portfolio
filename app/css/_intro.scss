@@ -15,3 +15,12 @@
     line-height: 2;
   }
 }
+
+@media screen and (max-width: 800px) {
+  #intro {
+    font-size: $small-font-size;
+    &_statement {
+      font-size: $regular-font-size;
+    }
+  }
+}
