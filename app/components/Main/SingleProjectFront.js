@@ -1,5 +1,4 @@
 import React from "react";
-import { BsArrowReturnRight } from "react-icons/bs";
 const requestImageFile = require.context("../../media", false, /.png$/);
 
 function SingleProjectFront(prop) {

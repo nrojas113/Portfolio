@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Web app that analyzes user's Netflix watch history and generates insights of the user's watching habits",
     longDescription:
-      "User can interact with the app through chatbot and data visualization. We used React to build the user interface, Bootstrap for responsive design and Chart.js for data visualization. In the back end, we utilized Flask as framework for building APIs, while using Python and Pandas for converting IMDB and user datasets into data frames which we used to generate insights of user's watching history.",
+      "In this app, the user can interact with the app through chatbot and data visualization. We used React to build the user interface, Bootstrap for responsive design and Chart.js for data visualization. In the back end, we utilized Flask as framework for building APIs, while using Python and Pandas for converting IMDB and user datasets into data frames which we used to generate insights of user's watching history.",
     teckStack:
       "React, Chart.js, Bootstrap, Flask, Firebase Storage, Real-time database, Pandas, IMDB API, Google Cloud Platform",
     isDeployed: true,

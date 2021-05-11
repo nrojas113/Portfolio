@@ -7,7 +7,7 @@ function SingleProjectBack(prop) {
     <>
       <div id="projects_body_single--image">
         <img
-          src={requestImageFile(`./${imageName}_mockup.png`)}
+          src={requestImageFile(`./${imageName}_image.png`)}
           loading="lazy"
           alt={`Main page image for ${title}`}
         />
