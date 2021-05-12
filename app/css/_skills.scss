@@ -3,14 +3,7 @@
   // background: #f7f7f5;
   margin: 5em 0;
   padding-bottom: 5em;
-  // &:after {
-  //   content: " ";
-  //   border-bottom: 100vh solid #f7ecc9;
-  //   border-right: 100vw solid transparent;
-  //   width: 0;
-  //   position: absolute;
-  //   z-index: -1;
-  // }
+
   h2 {
     font-size: $regular-font-size;
     margin-top: 2em;
@@ -23,9 +16,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2.5em;
+    width: 50vw;
     li {
-      width: 20%;
+      width: 8em;
       font-size: $regular-font-size;
       text-align: center;
       margin: 2em 0;
@@ -51,9 +44,9 @@
       }
     }
     ul {
-      flex-direction: column;
+      width: 90vw;
       li {
-        width: 100%;
+        // width: 5em;
       }
     }
   }

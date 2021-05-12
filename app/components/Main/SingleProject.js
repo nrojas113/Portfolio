@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import SingleProjectFront from "./SingleProjectFront";
 import SingleProjectBack from "./SingleProjectBack";
 
-function SingleProject(prop) {
+function SingleProject({ project }) {
   const [flip, setFlip] = useState(false);
 
   return (
     <div id="projects_body_single" className="card" data-aos="zoom-in">
       {flip ? (
-        <SingleProjectBack {...prop} setFlip={setFlip} />
+        <SingleProjectBack {...project} setFlip={setFlip} />
       ) : (
-        <SingleProjectFront {...prop} setFlip={setFlip} />
+        <SingleProjectFront {...project} setFlip={setFlip} />
       )}
     </div>
   );

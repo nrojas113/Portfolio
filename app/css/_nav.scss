@@ -105,3 +105,9 @@ nav {
     transition-delay: ($i * 0.1s);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  nav {
+    font-size: $small-font-size;
+  }
+}

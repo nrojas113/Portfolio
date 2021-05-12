@@ -21,3 +21,15 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    p {
+      font-size: $small-font-size;
+    }
+    .social-icons {
+      font-size: 2.5rem;
+      padding: 1rem;
+    }
+  }
+}

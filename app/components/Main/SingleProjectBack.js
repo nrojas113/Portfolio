@@ -17,6 +17,7 @@ function SingleProjectBack(prop) {
         <p>{longDescription}</p>
         <p>Teck Stack: {teckStack}</p>
       </div>
+
       <div id="projects_body_single--arrow">
         <button type="button" onClick={() => setFlip(false)}>
           Back

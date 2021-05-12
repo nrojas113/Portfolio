@@ -12,7 +12,7 @@ export default function Projects() {
       <h1 className="section_title">Projects</h1>
       <div id="projects_body">
         {projects.map((project) => {
-          return <SingleProject {...project} key={project.id} />;
+          return <SingleProject project={project} key={project.id} />;
         })}
       </div>
     </section>
